@@ -4,3 +4,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 80%;
+    min-height: 100px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER */
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.header-left{
+    min-height: 50px;
+    min-width: 100px;  
+    background-color: blue;
+}
+
+.header-center{
+    min-height: 50px;
+    min-width: 100px;  
+    background-color: blue;
+}
+
+.header-right{
+    min-height: 50px;
+    min-width: 100px;  
+    background-color: blue;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+main{
+    min-height: 500px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prima-riga-main{
+    min-height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.seconda-riga-main{
+    min-height: 50px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+.img2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+.img3{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+.img4{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+.img5{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+.img6{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+} 
+
+
+
+
+/* .img2{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}  */
+
+
+
+
+/* FINE MAIN */
+
+/* FOOTER */
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left{
+    min-height: 50px;
+    min-width: 100px;  
+    background-color: white;
+}
+
+.footer-right{
+    min-height: 50px;
+    min-width: 100px;  
+    background-color: white;
+}
+
+/* FINE FOOTER */
