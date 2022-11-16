@@ -61,64 +61,90 @@ main{
 }
 
 .prima-riga-main{
-    min-height: 50px;
+    min-height: 500px;
     width: 100%;
     background-color: blueviolet;
     display: flex;
     justify-content: space-between;
+    background-size: contain;
+}
 
+.img1{
+    min-height: 100px;
+    width: 30%;
+    background-color: white;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+
+} 
+
+.img2{
+    min-height: 100px;
+    width: 30%;
+    background-color: white;
+    background-image: url(../img/2.webp);
+    background-size: cover;
+} 
+.img3{
+    min-height: 100px;
+    width: 30%;
+    background-color: white;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+} 
+
+
+
+.spazio-tra-righe{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-img-1{
+    background-color: brown;
+}
+
+.text-img-2{
+    background-color: brown;
+}
+
+.text-img-3{
+    background-color: brown;
 }
 
 .seconda-riga-main{
-    min-height: 50px;
+    min-height: 500px;
     width: 100%;
     background-color: red;
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
-
-.img1{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-} 
-.img2{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-} 
-.img3{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-} 
 .img4{
-    height: 100px;
-    width: 100px;
+    min-height: 100px;
+    width: 30%;
     background-color: white;
+    background-image: url(../img/4.webp);
+    background-size: cover;
 } 
 .img5{
-    height: 100px;
-    width: 100px;
+    min-height: 100px;
+    width: 30%;
     background-color: white;
+    background-image: url(../img/5.webp);
+    background-size: cover;
 } 
 .img6{
-    height: 100px;
-    width: 100px;
+    min-height: 100px;
+    width: 30%;
     background-color: white;
+    background-image: url(../img/6.webp);
+    background-size: cover;
 } 
-
-
-
-
-/* .img2{
-    height: 50px;
-    width: 50px;
-    background-color: blueviolet;
-}  */
-
-
 
 
 /* FINE MAIN */
