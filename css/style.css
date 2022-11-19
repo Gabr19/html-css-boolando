@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .container{
     width: 80%;
     min-height: 100px;
@@ -21,21 +26,34 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: darkorange;
 }
 
 .header-left{
     min-height: 50px;
     min-width: 100px;  
     /* background-color: blue; */
+    display: flex;
+    align-items: center;
 }
 
+.header-left > div{
+    margin: 5px;
+}
+
+
+
 .header-center{
-    position: center;
-    height: 70px;
-    width: 350px;  
+    height: 100px;
+    width: 200px;  
     background-image: url(../img/boolean-logo.png);
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
     /* background-color: blue; */
 }
 
@@ -43,6 +61,13 @@ header{
     min-height: 50px;
     min-width: 100px;  
     /* background-color: blue; */
+    display: flex;
+    align-items: center;
+
+}
+
+.header-right > i{
+    margin: 5px;
 }
 
 /* FINE HEADER */
