@@ -89,6 +89,8 @@ main{
 
 }
 
+
+
 .prima-riga-main{
     min-height: 500px;
     width: 100%;
@@ -97,6 +99,8 @@ main{
     justify-content: space-between;
     background-size: contain;
 }
+
+/* immagine1 */
 
 .img1{
     min-height: 100px;
@@ -117,12 +121,17 @@ main{
 } 
 
 
+
 .cuore{
     padding: 10px;
     background-color: white;
     position: absolute;
     right: 0%;
     margin-top: 10px;
+}
+
+.cuore:hover{
+    color: red;
 }
 
 .etichetta{
@@ -142,13 +151,29 @@ main{
     padding: 5px;
 }    
 
+/* immagine2 */
+
 .img2{
-    min-height: 100px;
-    width: 30%;
-    /* background-color: white; */
-    background-image: url(../img/2.webp);
-    background-size: cover;
-} 
+        min-height: 100px;
+        width: 30%;
+        /* background-color: white; */
+        background-image: url(../img/2.webp);
+        background-size: cover;
+        position: relative;
+    } 
+    
+.img2:hover{
+        min-height: 100px;
+        width: 30%;
+        /* background-color: white; */
+        background-image: url(../img/2b.webp);
+        background-size: cover;
+        position: relative;
+    } 
+
+
+
+/* immagine3 */
 
 .img3{
     min-height: 100px;
@@ -156,8 +181,17 @@ main{
     /* background-color: white; */
     background-image: url(../img/3.webp);
     background-size: cover;
+    position: relative;
 } 
 
+.img3:hover{
+    min-height: 100px;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+    position: relative;
+} 
 
 
 .spazio-tra-righe1{
@@ -169,32 +203,36 @@ main{
     justify-content: space-between; */
 }
 
-.text-img-1{
-    /* background-color: brown; */
-    position: absolute;
-    left: 0;
-}
-
-.text-img-2{
-    /* background-color: brown; */
-    position: absolute;
-    left: 35%;
-}
-
-.text-img-3{
-    /* background-color: brown; */
-    position: absolute;
-    left: 70%;
-}
+/* seconda riga */
 
 .seconda-riga-main{
     min-height: 500px;
     width: 100%;
-    /* background-color: red; */
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    background-size: contain;
 }
+
+/* immagine4 */
+
+.img4{
+    min-height: 100px;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    position: relative;
+} 
+
+.img4:hover{
+    min-height: 100px;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+    position: relative;
+} 
 
 .spazio-tra-righe2{
     width: 100%;
@@ -205,26 +243,43 @@ main{
     justify-content: space-between; */
 }
 
-.img4{
-    min-height: 100px;
-    width: 30%;
-    /* background-color: white; */
-    background-image: url(../img/4.webp);
-    background-size: cover;
-} 
+/* immagine5 */
 .img5{
     min-height: 100px;
     width: 30%;
     /* background-color: white; */
     background-image: url(../img/5.webp);
     background-size: cover;
+    position: relative;
 } 
+
+.img5:hover{
+    min-height: 100px;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+    position: relative;
+} 
+
+
+/* immagine6 */
 .img6{
     min-height: 100px;
     width: 30%;
     /* background-color: white; */
     background-image: url(../img/6.webp);
     background-size: cover;
+    position: relative;
+} 
+
+.img6:hover{
+    min-height: 100px;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+    position: relative;
 } 
 
 
