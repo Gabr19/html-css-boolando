@@ -199,9 +199,23 @@ main{
     min-height: 100px;
     /* background-color: black; */
     position: relative;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    /* justify-content: space-between;  */
 }
+
+.spazio-tra-righe1 > div{
+    display: inline-block;
+}
+
+.text-img-2{
+    margin-left: 160px;
+}
+
+.text-img-3{
+    margin-left: 280px;
+}
+
+
 
 /* seconda riga */
 
@@ -239,8 +253,20 @@ main{
     min-height: 100px;
     /* background-color: black; */
     position: relative;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    /* justify-content: space-between;  */
+}
+
+.spazio-tra-righe2 > div{
+    display: inline-block;
+}
+
+.text-img-5{
+    margin-left: 280px;
+}
+
+.text-img-6{
+    margin-left: 250px;
 }
 
 /* immagine5 */
